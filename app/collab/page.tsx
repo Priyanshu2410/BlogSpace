@@ -6,9 +6,9 @@ export default function CollabPage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-white to-blue-100 text-slate-800">
       {/* Hero Section */}
       <section className="text-center py-18 px-4">
-        <h1 className="text-5xl font-extrabold mb-4 tracking-tight">
-          Let's Collaborate
-        </h1>
+      <h1 className="text-5xl font-extrabold mb-4 tracking-tight">
+          Let&apos;s Collaborate
+      </h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
           If you&apos;re passionate about tech, curious about ideas, or want to co-author blogs — I&apos;d love to work with you!
         </p>
