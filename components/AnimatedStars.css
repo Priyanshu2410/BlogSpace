@@ -1,0 +1,13 @@
+.stars-bg {
+    background: #0f172a;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 30px 30px;
+    animation: starsMove 30s linear infinite;
+    opacity: 0.1;
+  }
+  
+  @keyframes starsMove {
+    0% { background-position: 0 0; }
+    100% { background-position: 1000px 1000px; }
+  }
+  
