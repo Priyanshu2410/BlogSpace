@@ -6,7 +6,7 @@ export default function SocialLinks() {
   return (
     <section className="relative z-10 py-16 px-4 flex justify-center">
       <div className="bg-white/80  shadow-2xl rounded-3xl p-10 w-full max-w-3xl border border-white/30">
-        <h2 className="text-3xl font-bold text-slate-800 mb-6 text-center">Let's Connect</h2>
+        <h2 className="text-3xl font-bold text-slate-800 mb-6 text-center">Let&apos;s Connect</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-slate-700">
           {/* LinkedIn */}
           <a

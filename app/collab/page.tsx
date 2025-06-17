@@ -7,10 +7,10 @@ export default function CollabPage() {
       {/* Hero Section */}
       <section className="text-center py-18 px-4">
         <h1 className="text-5xl font-extrabold mb-4 tracking-tight">
-          Let’s Collaborate
+          Let's Collaborate
         </h1>
         <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-          If you're passionate about tech, curious about ideas, or want to co-author blogs — I’d love to work with you!
+          If you&apos;re passionate about tech, curious about ideas, or want to co-author blogs — I&apos;d love to work with you!
         </p>
       </section>
 

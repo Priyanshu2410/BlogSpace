@@ -42,7 +42,7 @@ export default function CollabForm() {
       } else {
         setStatus('error');
       }
-    } catch (error) {
+    } catch {
       setStatus('error');
     }
   };
@@ -78,7 +78,7 @@ export default function CollabForm() {
   </div>
 
   <div>
-    <label className="block mb-1 font-medium text-slate-700">Topics You’re Interested In</label>
+    <label className="block mb-1 font-medium text-slate-700">Topics You're Interested In</label>
     <input
       type="text"
       name="topic"
@@ -120,7 +120,7 @@ export default function CollabForm() {
   </button>
 
   {status === 'success' && (
-    <p className="text-green-600 text-center font-medium">Thanks! I’ll reach out soon.</p>
+    <p className="text-green-600 text-center font-medium">Thanks! I'll reach out soon.</p>
   )}
   {status === 'error' && (
     <p className="text-red-500 text-center font-medium">Something went wrong. Please try again.</p>

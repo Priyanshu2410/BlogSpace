@@ -28,7 +28,7 @@ export default function StarBackground() {
     function drawStars() {
       ctx!.clearRect(0, 0, canvas.width, canvas.height);
       ctx!.fillStyle = 'white';
-      for (let star of stars) {
+      for (const star of stars) {
         ctx!.beginPath();
         ctx!.arc(star.x, star.y, star.radius, 0, 2 * Math.PI);
         ctx!.fill();
@@ -37,7 +37,7 @@ export default function StarBackground() {
 
     function animateStars() {
       drawStars();
-      for (let star of stars) {
+      for (const star of stars) {
         star.y += 0.15;
         if (star.y > canvas.height) {
           star.y = 0;
