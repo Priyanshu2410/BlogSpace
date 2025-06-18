@@ -15,7 +15,7 @@ export default function SocialLinks() {
             className="flex items-center gap-4 hover:bg-black/80 hover:text-white px-4 py-3 rounded-xl transition"
           >
             <FaLinkedin className="text-2xl text-blue-600" />
-            <span className="text-sm">linkedin.com/in/your-profile</span>
+            <span className="text-sm">linkedin.com/in/priyanshupatel2410</span>
           </a>
 
           {/* Instagram */}
@@ -35,7 +35,7 @@ export default function SocialLinks() {
             className="flex items-center gap-4 hover:bg-black/80 hover:text-white px-4 py-3 rounded-xl transition"
           >
             <FaMedium className="text-2xl text-green-600" />
-            <span className="text-sm">medium.com/@yourmedium</span>
+            <span className="text-sm">medium.com/@patelpriysnshu2410</span>
           </a>
 
           {/* Email */}

@@ -29,6 +29,9 @@ export default function FlipCard() {
         >
           {/* Front */}
           <div className="absolute w-full h-full backface-hidden bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-center items-center text-center">
+            <h1 className="text-4xl font-bold text-slate-800 mb-2">
+              Please Tap Me 
+            </h1>
             <img
               src="/Video game developer-rafiki.svg" // 🔁 place your image in `/public`
               alt="Support"
